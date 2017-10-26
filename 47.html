@@ -1,0 +1,120 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<TITLE>Preliminary Program</TITLE>
+
+<style>
+
+BODY {
+   MARGIN-TOP: 15pt;
+   MARGIN-LEFT: 15pt;
+   MARGIN-RIGHT: 15pt;
+   MARGIN-BOTTOM: 15pt;
+   FONT-SIZE: 10pt;
+   FONT-FAMILY: "Times New Roman";
+   BACKGROUND-COLOR: #ffffff;
+   COLOR: #000000;
+}
+
+P {
+   FONT-SIZE: 10pt;
+}
+
+TD {
+   FONT-SIZE: 10pt;
+}
+
+TH {
+   FONT-SIZE: 10pt;
+}
+
+
+A {
+   COLOR: #32426c;
+   FONT-FAMILY: Arial, Helvetica, sans-serif;
+}
+A:visited {
+   COLOR: #32426c;
+   FONT-FAMILY: Arial, Helvetica, sans-serif;
+}
+A:active {
+   COLOR: #32426c;
+   FONT-FAMILY: Arial, Helvetica, sans-serif;
+   TEXT-DECORATION: none
+}
+A:hover {
+   COLOR: #32426c;
+   FONT-FAMILY: Arial, Helvetica, sans-serif;
+   TEXT-DECORATION: underline
+}
+H4 {
+   FONT-SIZE: 10pt;
+   FONT-FAMILY: Arial, Helvetica, sans-serif;
+}
+
+H3 {
+   FONT-SIZE: 11pt;
+   FONT-FAMILY: Arial, Helvetica, sans-serif;
+}
+
+H2 {
+   FONT-SIZE: 12pt;
+   FONT-FAMILY: Arial, Helvetica, sans-serif;
+}
+
+H1 {
+   FONT-SIZE: 14pt;
+   FONT-FAMILY: Arial, Helvetica, sans-serif;
+}
+
+</style>
+
+<p>
+
+<h4>Detección de fibrilación ventricular mediante técnicas de aprendizaje profundo</h4>
+
+<em>Artzai Picon<sup>1</sup>,&nbsp;Unai Irusta<sup>2</sup>,&nbsp;Aitor Alvarez-Gila<sup>1</sup>,&nbsp;Elisabete Aramendi<sup>2</sup>,&nbsp;Estibaliz Garrote<sup>1</sup>,&nbsp;Unai Ayala<sup>3</sup>,&nbsp;Carlos Figuera<sup>4</sup>,&nbsp;Felipe Alonso-Atienza<sup>5</sup></em><br>
+<sup>1</sup>Tecnalia, <sup>2</sup>UPV/EHU, <sup>3</sup>Mondragon Unibertsitatea, <sup>4</sup>Rey Juan Carlos University, <sup>5</sup>Universidad Rey Juan Carlos
+
+<p>
+
+<hr>
+
+
+<h4>Abstract</h4>
+
+<blockquote>
+    <p>La detección de arritmias ventriculares, en particular la fibrilación
+ventricular (FV), es parte fundamental de los algoritmos de clasificación de
+arritmias de los desfibriladores. Dichos algoritmos deciden si administrar la
+descarga de desfibrilación, para lo que clasifican los ritmos en
+desfibrilables (Sh) o no desfibrilables (NSh). Este trabajo propone un nuevo
+abordaje para la clasificación Sh/NSh de ritmos basado en un sistema de
+aprendizaje profundo. 
+Para el trabajo se emplearon tres bases de datos públicas de la plataforma
+Physionet (CUDB, VFDB y AHADB), y se extrajeron segmentos de 4 y 8 segundos. Se
+anotaron los segmentos como Sh y NSh en base a las anotaciones de las bases de
+datos, que fueron auditadas por expertos. Los datos se dividieron por paciente
+en 80% para desarrollar los algoritmos y 20% para evaluación. El sistema de
+aprendizaje profundo emplea dos etapas convolucionales seguidas de, una red
+long-short-term-memory y una etapa final de clasificación basada en red
+neuronal. A modo de referencia se optimizó un clasificador SVM basado en las
+características de detección de arritmias ventriculares más eficientes
+publicadas en la literatura. Se calculó la sensibilidad (Se), ritmos
+desfibrilables, especificidad (Sp), ritmos no desfibrilables, y la precisión
+(Acc).
+El método de aprendizaje profundo proporcionó Se, Sp y Acc de 98.5%, 99.4% y
+99.2% para segmentos de 4 segundos y 99.7%, 98.9%, 99.1% para segmentos de 8
+segundos. El algoritmo permite detectar FV de forma fiable con segmentos de 4
+segundos, corrigiendo un 30% de los errores del método basado en SVM.</p> </p>
+</blockquote>
+
+
+
+
+<hr>
+
+<p>
+</body>
+</html>
